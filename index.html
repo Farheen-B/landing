@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoVibe Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="logo">LANDING PAGE</div>
+                <div class="contact-info">
+                    <p>Call: 123-444-444 | Email: abcde@gmail.com</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="btn">LOGIN</a>
+                    <a href="#" class="btn">SIGNUP</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <div class="container">
+                <div class="hamburger" id="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" class="btn-buy-now">Buy Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container">
+                <h1>InnoVibe Studio</h1>
+                <p>Where Bold Ideas Meet Strategic Thinking to Create Compelling Digital Experiences That Resonate and Convert.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>Launch Business</h3>
+                <p>Helping you to launch and grow your business with our expertise.</p>
+            </div>
+            <div class="feature">
+                <h3>Online Support Team</h3>
+                <p>24/7 online support to assist you with your business needs.</p>
+            </div>
+            <div class="feature">
+                <h3>Time Management</h3>
+                <p>Efficient time management solutions to keep your business on track.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div>
+                <h2>About Us</h2>
+                <p>At InnoVibe Studio we blend creativity with strategy to deliver impactful digital solutions. Our passionate team is dedicated to transforming your ideas into engaging experiences that drive results.
+                We believe in collaboration, taking the time to understand your unique goals and challenges. Whether you’re a startup or an established brand, we’re here to enhance your online presence and help you thrive in the digital landscape.
+                Let’s work together to turn your vision into reality!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="about-image">
+                <img src="woman.png" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <img src="user.png.jpeg" alt="Service 1">
+                    <h3>User Experience</h3>
+                </div>
+                <div class="service">
+                    <img src="man.png" alt="Service 2">
+                    <h3>Creative Design</h3>
+                </div>
+                <div class="service">
+                    <img src="device.png" alt="Service 3">
+                    <h3>Retina Ready</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>InnoVibe Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script >
+        document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+    });
+});
+    </script>
+</body>
+</html>
